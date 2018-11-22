@@ -1,0 +1,22 @@
+{
+    "name": "zhoud01/try-make-package",
+    "description": "try make a package",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "zhoud01",
+            "email": "zhoud9012@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+      "php": ">=7.0"
+    },
+    "autoload": {
+      "psr-4": {
+        "Flower\\Rose\\": "src/Flower/Rose",
+        "Flower\\Lily\\": "src/Flower/Lily"
+      }
+  }
+}
